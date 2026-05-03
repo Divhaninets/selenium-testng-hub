@@ -134,21 +134,33 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <!-- A/B Test Tests -->
-    <test name="AB Test Tests">
-        <classes>
-            <class name="com.divhani.theinternet.AbTestTest"/>
-        </classes>
-    </test>
+<!--    &lt;!&ndash; A/B Test Tests &ndash;&gt;-->
+<!--    <test name="AB Test Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.AbTestTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <!-- Status Codes Tests -->
-    <test name="Status Codes Tests">
-        <classes>
-            <class name="com.divhani.theinternet.StatusCodesTest"/>
-        </classes>
-    </test>
+<!--    &lt;!&ndash; Status Codes Tests &ndash;&gt;-->
+<!--    <test name="Status Codes Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.StatusCodesTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
+<!--    &lt;!&ndash; Typos Tests &ndash;&gt;-->
+<!--    <test name="Typos Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.TyposTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
+<!--    &lt;!&ndash; Floating Menu Tests &ndash;&gt;-->
+<!--    <test name="Floating Menu Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.FloatingMenuTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 
 

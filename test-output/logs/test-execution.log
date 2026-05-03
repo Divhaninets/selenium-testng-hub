@@ -1,47 +1,33 @@
-2026-05-03 16:36:34 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:36:40 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:36:40 [INFO ] com.divhani.theinternet.AbTestTest - Starting abTestPageLoadsTest
-2026-05-03 16:36:46 [INFO ] com.divhani.pages.AbTestPage - Navigated to A/B Test page
-2026-05-03 16:36:46 [INFO ] com.divhani.pages.AbTestPage - Heading text: A/B Test Control
-2026-05-03 16:36:46 [INFO ] com.divhani.theinternet.AbTestTest - abTestPageLoadsTest passed
-2026-05-03 16:36:46 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:36:47 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:36:48 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:36:50 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:36:50 [INFO ] com.divhani.theinternet.StatusCodesTest - Starting status200Test
-2026-05-03 16:36:57 [INFO ] com.divhani.pages.StatusCodesPage - Navigated to Status Codes page
-2026-05-03 16:36:57 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: 200
-2026-05-03 16:36:57 [INFO ] com.divhani.pages.StatusCodesPage - Clicked status code: 200
-2026-05-03 16:36:57 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.tagName: p
-2026-05-03 16:36:57 [INFO ] com.divhani.pages.StatusCodesPage - Page text: This page returned a 200 status code.
-
-For a definition and common list of HTTP status codes, go here
-2026-05-03 16:36:57 [INFO ] com.divhani.theinternet.StatusCodesTest - status200Test passed
-2026-05-03 16:36:57 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:36:58 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:36:58 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:37:00 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:37:00 [INFO ] com.divhani.theinternet.StatusCodesTest - Starting status404Test
-2026-05-03 16:37:06 [INFO ] com.divhani.pages.StatusCodesPage - Navigated to Status Codes page
-2026-05-03 16:37:06 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: 404
-2026-05-03 16:37:07 [INFO ] com.divhani.pages.StatusCodesPage - Clicked status code: 404
-2026-05-03 16:37:07 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.tagName: p
-2026-05-03 16:37:07 [INFO ] com.divhani.pages.StatusCodesPage - Page text: This page returned a 404 status code.
-
-For a definition and common list of HTTP status codes, go here
-2026-05-03 16:37:07 [INFO ] com.divhani.theinternet.StatusCodesTest - status404Test passed
-2026-05-03 16:37:07 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:37:07 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:37:07 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:37:09 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:37:10 [INFO ] com.divhani.theinternet.StatusCodesTest - Starting status500Test
-2026-05-03 16:37:16 [INFO ] com.divhani.pages.StatusCodesPage - Navigated to Status Codes page
-2026-05-03 16:37:16 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: 500
-2026-05-03 16:37:17 [INFO ] com.divhani.pages.StatusCodesPage - Clicked status code: 500
-2026-05-03 16:37:17 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.tagName: p
-2026-05-03 16:37:17 [INFO ] com.divhani.pages.StatusCodesPage - Page text: This page returned a 500 status code.
-
-For a definition and common list of HTTP status codes, go here
-2026-05-03 16:37:17 [INFO ] com.divhani.theinternet.StatusCodesTest - status500Test passed
-2026-05-03 16:37:17 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:37:17 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:40:28 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:40:32 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:40:32 [INFO ] com.divhani.theinternet.TyposTest - Starting pageLoadsTest
+2026-05-03 16:40:38 [INFO ] com.divhani.pages.TyposPage - Navigated to Typos page
+2026-05-03 16:40:38 [INFO ] com.divhani.theinternet.TyposTest - pageLoadsTest passed
+2026-05-03 16:40:38 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:40:39 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:40:39 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:40:41 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:40:41 [INFO ] com.divhani.theinternet.TyposTest - Starting secondParagraphContainsExpectedWordsTest
+2026-05-03 16:40:48 [INFO ] com.divhani.pages.TyposPage - Navigated to Typos page
+2026-05-03 16:40:48 [INFO ] com.divhani.pages.TyposPage - Second paragraph: Sometimes you'll see a typo, other times you won,t.
+2026-05-03 16:40:48 [INFO ] com.divhani.theinternet.TyposTest - secondParagraphContainsExpectedWordsTest passed
+2026-05-03 16:40:48 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:40:48 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:40:49 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:40:52 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:40:52 [INFO ] com.divhani.theinternet.FloatingMenuTest - Starting menuStaysVisibleAfterScrollTest
+2026-05-03 16:40:58 [INFO ] com.divhani.pages.FloatingMenuPage - Navigated to Floating Menu page
+2026-05-03 16:40:58 [INFO ] com.divhani.pages.FloatingMenuPage - Scrolled down 500 pixels
+2026-05-03 16:40:58 [INFO ] com.divhani.pages.FloatingMenuPage - Menu displayed: true
+2026-05-03 16:40:59 [INFO ] com.divhani.pages.FloatingMenuPage - Home link displayed: true
+2026-05-03 16:40:59 [INFO ] com.divhani.theinternet.FloatingMenuTest - menuStaysVisibleAfterScrollTest passed
+2026-05-03 16:40:59 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:40:59 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:40:59 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:41:01 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:41:01 [INFO ] com.divhani.theinternet.FloatingMenuTest - Starting menuVisibleOnLoadTest
+2026-05-03 16:41:06 [INFO ] com.divhani.pages.FloatingMenuPage - Navigated to Floating Menu page
+2026-05-03 16:41:08 [INFO ] com.divhani.pages.FloatingMenuPage - Menu displayed: true
+2026-05-03 16:41:08 [INFO ] com.divhani.theinternet.FloatingMenuTest - menuVisibleOnLoadTest passed
+2026-05-03 16:41:08 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:41:09 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
