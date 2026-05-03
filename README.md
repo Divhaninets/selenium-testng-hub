@@ -68,6 +68,21 @@ This is not just a test suite. It is an **automation bible** — a living refere
 | Broken Images | JavaScript execution | 3 |
 | Notification Messages | Dynamic messages | 2 |
 | Redirect Link | URL verification | 2 |
+| Horizontal Slider | Arrow keys on range input | 2 |
+| Geolocation | JavaScript geolocation mock | 2 |
+| Infinite Scroll | JavaScript scroll execution | 2 |
+| Shadow DOM | getShadowRoot() Selenium 4 | 2 |
+| A/B Testing | Page variant verification | 1 |
+| Status Codes | URL and content verification | 3 |
+| Typos | Dynamic text content | 2 |
+| Floating Menu | JavaScript scroll, fixed elements | 2 |
+| Inputs | Number input, arrow key control | 3 |
+| Key Presses | Keys class — TAB, ESCAPE, ARROW | 3 |
+| Context Menu | Right click, contextClick() | 1 |
+| Add/Remove Elements | Dynamic DOM manipulation | 4 |
+| Broken Images | JavaScript naturalWidth check | 3 |
+| Notification Messages | Dynamic flash messages | 2 |
+| Redirect Link | URL verification after redirect | 2 |
 
 ## Reference Library
 
