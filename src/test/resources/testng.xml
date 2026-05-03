@@ -78,4 +78,11 @@
 <!--        </classes>-->
 <!--    </test>-->
 
+    <!-- Sortable Tables Tests -->
+    <test name="Sortable Tables Tests">
+        <classes>
+            <class name="com.divhani.theinternet.SortableTablesTest"/>
+        </classes>
+    </test>
+
 </suite>

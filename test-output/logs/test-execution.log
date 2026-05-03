@@ -1,22 +1,32 @@
-2026-05-03 15:35:23 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:35:26 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:35:26 [INFO ] com.divhani.theinternet.DynamicLoadingTest - Starting example1HiddenElementTest
-2026-05-03 15:35:33 [INFO ] com.divhani.pages.DynamicLoadingPage - Navigated to Dynamic Loading Example 1
-2026-05-03 15:35:33 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.cssSelector: #start button
-2026-05-03 15:35:33 [INFO ] com.divhani.pages.DynamicLoadingPage - Clicked Start button
-2026-05-03 15:35:33 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.cssSelector: #finish h4
-2026-05-03 15:35:39 [INFO ] com.divhani.pages.DynamicLoadingPage - Finish text: Hello World!
-2026-05-03 15:35:39 [INFO ] com.divhani.theinternet.DynamicLoadingTest - example1HiddenElementTest passed
-2026-05-03 15:35:39 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:35:39 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:35:39 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:35:41 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:35:41 [INFO ] com.divhani.theinternet.DynamicLoadingTest - Starting example2ElementAddedTest
-2026-05-03 15:35:48 [INFO ] com.divhani.pages.DynamicLoadingPage - Navigated to Dynamic Loading Example 2
-2026-05-03 15:35:48 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.cssSelector: #start button
-2026-05-03 15:35:48 [INFO ] com.divhani.pages.DynamicLoadingPage - Clicked Start button
-2026-05-03 15:35:48 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.cssSelector: #finish h4
-2026-05-03 15:35:54 [INFO ] com.divhani.pages.DynamicLoadingPage - Finish text: Hello World!
-2026-05-03 15:35:54 [INFO ] com.divhani.theinternet.DynamicLoadingTest - example2ElementAddedTest passed
-2026-05-03 15:35:54 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:35:54 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 15:39:27 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 15:39:30 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 15:39:30 [INFO ] com.divhani.theinternet.SortableTablesTest - Starting getAllEmailsTest
+2026-05-03 15:39:37 [INFO ] com.divhani.pages.SortableTablesPage - Navigated to Sortable Tables page
+2026-05-03 15:39:38 [INFO ] com.divhani.pages.SortableTablesPage - Column 2 values: [jsmith@gmail.com, fbach@yahoo.com, jdoe@hotmail.com, tconway@earthlink.net]
+2026-05-03 15:39:38 [INFO ] com.divhani.theinternet.SortableTablesTest - getAllEmailsTest passed
+2026-05-03 15:39:38 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 15:39:38 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 15:39:38 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 15:39:40 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 15:39:40 [INFO ] com.divhani.theinternet.SortableTablesTest - Starting getDueAmountByLastNameTest
+2026-05-03 15:39:47 [INFO ] com.divhani.pages.SortableTablesPage - Navigated to Sortable Tables page
+2026-05-03 15:39:47 [INFO ] com.divhani.pages.SortableTablesPage - Due amount for Bach: $51.00
+2026-05-03 15:39:47 [INFO ] com.divhani.theinternet.SortableTablesTest - getDueAmountByLastNameTest passed
+2026-05-03 15:39:47 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 15:39:47 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 15:39:47 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 15:39:49 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 15:39:49 [INFO ] com.divhani.theinternet.SortableTablesTest - Starting getSpecificCellValueTest
+2026-05-03 15:39:56 [INFO ] com.divhani.pages.SortableTablesPage - Navigated to Sortable Tables page
+2026-05-03 15:39:57 [INFO ] com.divhani.pages.SortableTablesPage - Table 1 cell [0][0]: Smith
+2026-05-03 15:39:57 [INFO ] com.divhani.theinternet.SortableTablesTest - getSpecificCellValueTest passed
+2026-05-03 15:39:57 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 15:39:57 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 15:39:57 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 15:39:59 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 15:39:59 [INFO ] com.divhani.theinternet.SortableTablesTest - Starting tableRowCountTest
+2026-05-03 15:40:06 [INFO ] com.divhani.pages.SortableTablesPage - Navigated to Sortable Tables page
+2026-05-03 15:40:06 [INFO ] com.divhani.pages.SortableTablesPage - Table 1 row count: 4
+2026-05-03 15:40:06 [INFO ] com.divhani.theinternet.SortableTablesTest - tableRowCountTest passed
+2026-05-03 15:40:06 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 15:40:06 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
