@@ -1,22 +1,32 @@
-2026-05-03 16:22:35 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:22:41 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:22:41 [INFO ] com.divhani.theinternet.RedirectTest - Starting redirectPageTitleTest
-2026-05-03 16:22:48 [INFO ] com.divhani.pages.RedirectPage - Navigated to Redirect page
-2026-05-03 16:22:48 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: here
-2026-05-03 16:22:48 [INFO ] com.divhani.pages.RedirectPage - Clicked redirect link
-2026-05-03 16:22:48 [INFO ] com.divhani.pages.RedirectPage - Current page title: The Internet
-2026-05-03 16:22:48 [INFO ] com.divhani.theinternet.RedirectTest - redirectPageTitleTest passed
-2026-05-03 16:22:48 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:22:49 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:22:49 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:22:50 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:22:50 [INFO ] com.divhani.theinternet.RedirectTest - Starting redirectsToCorrectPageTest
-2026-05-03 16:22:55 [INFO ] com.divhani.pages.RedirectPage - Navigated to Redirect page
-2026-05-03 16:22:55 [INFO ] com.divhani.pages.RedirectPage - Current URL: https://the-internet.herokuapp.com/redirector
-2026-05-03 16:22:55 [INFO ] com.divhani.theinternet.RedirectTest - Initial URL: https://the-internet.herokuapp.com/redirector
-2026-05-03 16:22:55 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: here
-2026-05-03 16:22:56 [INFO ] com.divhani.pages.RedirectPage - Clicked redirect link
-2026-05-03 16:22:56 [INFO ] com.divhani.pages.RedirectPage - Current URL: https://the-internet.herokuapp.com/status_codes
-2026-05-03 16:22:56 [INFO ] com.divhani.theinternet.RedirectTest - redirectsToCorrectPageTest passed
-2026-05-03 16:22:56 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:22:57 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:32:11 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:32:16 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:32:17 [INFO ] com.divhani.theinternet.InputsTest - Starting decrementWithArrowDownTest
+2026-05-03 16:32:22 [INFO ] com.divhani.pages.InputsPage - Navigated to Inputs page
+2026-05-03 16:32:22 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.cssSelector: input[type='number']
+2026-05-03 16:32:23 [INFO ] com.divhani.pages.InputsPage - Entered number: 10
+2026-05-03 16:32:24 [INFO ] com.divhani.pages.InputsPage - Decremented input 4 times
+2026-05-03 16:32:24 [INFO ] com.divhani.pages.InputsPage - Input value: 6
+2026-05-03 16:32:24 [INFO ] com.divhani.theinternet.InputsTest - decrementWithArrowDownTest passed
+2026-05-03 16:32:24 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:32:24 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:32:24 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:32:26 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:32:26 [INFO ] com.divhani.theinternet.InputsTest - Starting enterNumberTest
+2026-05-03 16:32:33 [INFO ] com.divhani.pages.InputsPage - Navigated to Inputs page
+2026-05-03 16:32:33 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.cssSelector: input[type='number']
+2026-05-03 16:32:34 [INFO ] com.divhani.pages.InputsPage - Entered number: 10
+2026-05-03 16:32:34 [INFO ] com.divhani.pages.InputsPage - Input value: 10
+2026-05-03 16:32:34 [INFO ] com.divhani.theinternet.InputsTest - enterNumberTest passed
+2026-05-03 16:32:34 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:32:34 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:32:34 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:32:37 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:32:37 [INFO ] com.divhani.theinternet.InputsTest - Starting incrementWithArrowUpTest
+2026-05-03 16:32:42 [INFO ] com.divhani.pages.InputsPage - Navigated to Inputs page
+2026-05-03 16:32:42 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.cssSelector: input[type='number']
+2026-05-03 16:32:44 [INFO ] com.divhani.pages.InputsPage - Entered number: 5
+2026-05-03 16:32:45 [INFO ] com.divhani.pages.InputsPage - Incremented input 3 times
+2026-05-03 16:32:45 [INFO ] com.divhani.pages.InputsPage - Input value: 8
+2026-05-03 16:32:45 [INFO ] com.divhani.theinternet.InputsTest - incrementWithArrowUpTest passed
+2026-05-03 16:32:45 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:32:45 [INFO ] com.divhani.base.BaseTest - Browser closed successfully

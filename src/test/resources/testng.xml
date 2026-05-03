@@ -120,11 +120,25 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <!-- Redirect Tests -->
-    <test name="Redirect Tests">
+<!--    &lt;!&ndash; Redirect Tests &ndash;&gt;-->
+<!--    <test name="Redirect Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.RedirectTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <!-- Inputs Tests -->
+    <test name="Inputs Tests">
         <classes>
-            <class name="com.divhani.theinternet.RedirectTest"/>
+            <class name="com.divhani.theinternet.InputsTest"/>
         </classes>
     </test>
+
+
+
+
+
+
+
 
 </suite>
