@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<!-- TestNG Suite Configuration
-     This file controls which tests run, in what order, and how many in parallel
-     Run all tests with: mvn test -->
-
 <suite name="Selenium-TestNG-Hub Suite" verbose="1">
+
+    <!-- Register the ExtentReports listener -->
+    <listeners>
+        <listener class-name="com.divhani.utils.ExtentReportManager"/>
+    </listeners>
 
     <!-- Authentication and Forms Tests -->
     <test name="Login Tests">
