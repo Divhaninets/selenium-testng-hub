@@ -1,35 +1,22 @@
-2026-05-03 15:30:30 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:30:34 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:30:34 [INFO ] com.divhani.theinternet.HoversTest - Starting hoverCaptionTextTest
-2026-05-03 15:30:40 [INFO ] com.divhani.pages.HoversPage - Navigated to Hovers page
-2026-05-03 15:30:40 [INFO ] com.divhani.pages.HoversPage - Hovered over figure at index: 0
-2026-05-03 15:30:41 [INFO ] com.divhani.pages.HoversPage - Caption text at index 0: name: user1
-View profile
-2026-05-03 15:30:41 [INFO ] com.divhani.theinternet.HoversTest - hoverCaptionTextTest passed
-2026-05-03 15:30:41 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:30:41 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:30:41 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:30:42 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:30:42 [INFO ] com.divhani.theinternet.HoversTest - Starting hoverOverAllFiguresTest
-2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Navigated to Hovers page
-2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Hovered over figure at index: 0
-2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Caption visible at index 0: true
-2026-05-03 15:30:50 [INFO ] com.divhani.theinternet.HoversTest - Figure 0 hover verified
-2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Hovered over figure at index: 1
-2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Caption visible at index 1: true
-2026-05-03 15:30:50 [INFO ] com.divhani.theinternet.HoversTest - Figure 1 hover verified
-2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Hovered over figure at index: 2
-2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Caption visible at index 2: true
-2026-05-03 15:30:50 [INFO ] com.divhani.theinternet.HoversTest - Figure 2 hover verified
-2026-05-03 15:30:50 [INFO ] com.divhani.theinternet.HoversTest - hoverOverAllFiguresTest passed
-2026-05-03 15:30:50 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:30:50 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:30:50 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:30:52 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:30:52 [INFO ] com.divhani.theinternet.HoversTest - Starting hoverOverFirstFigureTest
-2026-05-03 15:30:59 [INFO ] com.divhani.pages.HoversPage - Navigated to Hovers page
-2026-05-03 15:30:59 [INFO ] com.divhani.pages.HoversPage - Hovered over figure at index: 0
-2026-05-03 15:30:59 [INFO ] com.divhani.pages.HoversPage - Caption visible at index 0: true
-2026-05-03 15:30:59 [INFO ] com.divhani.theinternet.HoversTest - hoverOverFirstFigureTest passed
-2026-05-03 15:30:59 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:31:00 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 15:35:23 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 15:35:26 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 15:35:26 [INFO ] com.divhani.theinternet.DynamicLoadingTest - Starting example1HiddenElementTest
+2026-05-03 15:35:33 [INFO ] com.divhani.pages.DynamicLoadingPage - Navigated to Dynamic Loading Example 1
+2026-05-03 15:35:33 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.cssSelector: #start button
+2026-05-03 15:35:33 [INFO ] com.divhani.pages.DynamicLoadingPage - Clicked Start button
+2026-05-03 15:35:33 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.cssSelector: #finish h4
+2026-05-03 15:35:39 [INFO ] com.divhani.pages.DynamicLoadingPage - Finish text: Hello World!
+2026-05-03 15:35:39 [INFO ] com.divhani.theinternet.DynamicLoadingTest - example1HiddenElementTest passed
+2026-05-03 15:35:39 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 15:35:39 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 15:35:39 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 15:35:41 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 15:35:41 [INFO ] com.divhani.theinternet.DynamicLoadingTest - Starting example2ElementAddedTest
+2026-05-03 15:35:48 [INFO ] com.divhani.pages.DynamicLoadingPage - Navigated to Dynamic Loading Example 2
+2026-05-03 15:35:48 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.cssSelector: #start button
+2026-05-03 15:35:48 [INFO ] com.divhani.pages.DynamicLoadingPage - Clicked Start button
+2026-05-03 15:35:48 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.cssSelector: #finish h4
+2026-05-03 15:35:54 [INFO ] com.divhani.pages.DynamicLoadingPage - Finish text: Hello World!
+2026-05-03 15:35:54 [INFO ] com.divhani.theinternet.DynamicLoadingTest - example2ElementAddedTest passed
+2026-05-03 15:35:54 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 15:35:54 [INFO ] com.divhani.base.BaseTest - Browser closed successfully

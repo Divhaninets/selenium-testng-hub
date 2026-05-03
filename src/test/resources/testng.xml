@@ -64,11 +64,18 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <!-- Hovers Tests -->
-    <test name="Hovers Tests">
-        <classes>
-            <class name="com.divhani.theinternet.HoversTest"/>
-        </classes>
-    </test>
+<!--    &lt;!&ndash; Hovers Tests &ndash;&gt;-->
+<!--    <test name="Hovers Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.HoversTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    &lt;!&ndash; Dynamic Loading Tests &ndash;&gt;-->
+<!--    <test name="Dynamic Loading Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.DynamicLoadingTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>
