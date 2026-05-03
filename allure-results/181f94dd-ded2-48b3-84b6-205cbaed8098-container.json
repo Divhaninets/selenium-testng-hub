@@ -1,0 +1,1 @@
+{"uuid":"181f94dd-ded2-48b3-84b6-205cbaed8098","name":"com.divhani.base.BaseTest.setUp","children":["b9f24b0a-3813-4efe-ae59-8b29044470ee"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1777816333738,"stop":1777816334924}],"afters":[],"start":1777816333738,"stop":1777816334924}
