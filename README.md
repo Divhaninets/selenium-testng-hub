@@ -45,6 +45,30 @@ This is not just a test suite. It is an **automation bible** — a living refere
 - Centralised explicit waits in `WaitUtil`
 - All `ExpectedConditions` documented in `WaitsReference.java`
 
+## Project Structure
+
+```
+selenium-testng-hub/
+├── src/
+│   ├── main/java/com/divhani/
+│   │   ├── locators/          # All 8 locator types documented
+│   │   ├── utils/             # Reusable helpers (WaitUtil)
+│   │   └── java_notes/        # Java fundamentals reference
+│   └── test/
+│       ├── java/com/divhani/
+│       │   ├── base/          # BaseTest — driver setup & teardown
+│       │   ├── pages/         # Page Object classes
+│       │   ├── theinternet/   # Tests for the-internet.herokuapp.com
+│       │   ├── demoqa/        # Tests for demoqa.com
+│       │   ├── uitestingplayground/ # Tests for uitestingplayground.com
+│       │   └── utils/         # ExtentReportManager, ScreenshotUtil
+│       ├── resources/
+│       │   ├── testng.xml     # Test suite configuration
+│       │   └── log4j2.xml     # Logging configuration
+│       └── testdata/          # Test files for upload tests
+└── pom.xml
+```
+
 ## Automation Solutions
 
 ### the-internet.herokuapp.com
@@ -116,26 +140,3 @@ After running tests, open:
 **Divhani Netshiombo**
 GitHub: [Divhaninets](https://github.com/Divhaninets)
 
-## Project Structure
-
-```
-selenium-testng-hub/
-├── src/
-│   ├── main/java/com/divhani/
-│   │   ├── locators/          # All 8 locator types documented
-│   │   ├── utils/             # Reusable helpers (WaitUtil)
-│   │   └── java_notes/        # Java fundamentals reference
-│   └── test/
-│       ├── java/com/divhani/
-│       │   ├── base/          # BaseTest — driver setup & teardown
-│       │   ├── pages/         # Page Object classes
-│       │   ├── theinternet/   # Tests for the-internet.herokuapp.com
-│       │   ├── demoqa/        # Tests for demoqa.com
-│       │   ├── uitestingplayground/ # Tests for uitestingplayground.com
-│       │   └── utils/         # ExtentReportManager, ScreenshotUtil
-│       ├── resources/
-│       │   ├── testng.xml     # Test suite configuration
-│       │   └── log4j2.xml     # Logging configuration
-│       └── testdata/          # Test files for upload tests
-└── pom.xml
-```

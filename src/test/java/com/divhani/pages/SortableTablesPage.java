@@ -45,6 +45,7 @@ public class SortableTablesPage {
 
     // Get cell value by row and column index (0-based)
     public String getTable1CellValue(int rowIndex, int colIndex) {
+        WaitUtil.waitForVisibility(driver, table1Rows);
         List<WebElement> rows = driver.findElements(table1Rows);
         List<WebElement> cells = rows.get(rowIndex).findElements(By.tagName("td"));
         String value = cells.get(colIndex).getText();
