@@ -8,52 +8,59 @@
         <listener class-name="com.divhani.utils.ExtentReportManager"/>
     </listeners>
 
-<!--    &lt;!&ndash; Authentication and Forms Tests &ndash;&gt;-->
-<!--    <test name="Login Tests">-->
-<!--        <classes>-->
-<!--            <class name="com.divhani.theinternet.LoginTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <!-- Authentication and Forms Tests -->
+    <test name="Login Tests">
+        <classes>
+            <class name="com.divhani.theinternet.LoginTest"/>
+        </classes>
+    </test>
 
-<!--    &lt;!&ndash; Checkboxes Tests &ndash;&gt;-->
-<!--    <test name="Checkboxes Tests">-->
-<!--        <classes>-->
-<!--            <class name="com.divhani.theinternet.CheckboxesTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <!-- Checkboxes Tests -->
+    <test name="Checkboxes Tests">
+        <classes>
+            <class name="com.divhani.theinternet.CheckboxesTest"/>
+        </classes>
+    </test>
 
-<!--    &lt;!&ndash; Dropdown Tests &ndash;&gt;-->
-<!--    <test name="Dropdown Tests">-->
-<!--        <classes>-->
-<!--            <class name="com.divhani.theinternet.DropdownTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <!-- Dropdown Tests -->
+    <test name="Dropdown Tests">
+        <classes>
+            <class name="com.divhani.theinternet.DropdownTest"/>
+        </classes>
+    </test>
 
-<!--    &lt;!&ndash; JavaScript Alerts Tests &ndash;&gt;-->
-<!--    <test name="JavaScript Alerts Tests">-->
-<!--        <classes>-->
-<!--            <class name="com.divhani.theinternet.JavaScriptAlertsTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <!-- JavaScript Alerts Tests -->
+    <test name="JavaScript Alerts Tests">
+        <classes>
+            <class name="com.divhani.theinternet.JavaScriptAlertsTest"/>
+        </classes>
+    </test>
 
-<!--    &lt;!&ndash; Multiple Windows Tests &ndash;&gt;-->
-<!--    <test name="Multiple Windows Tests">-->
-<!--        <classes>-->
-<!--            <class name="com.divhani.theinternet.MultipleWindowsTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <!-- Multiple Windows Tests -->
+    <test name="Multiple Windows Tests">
+        <classes>
+            <class name="com.divhani.theinternet.MultipleWindowsTest"/>
+        </classes>
+    </test>
 
-<!--    &lt;!&ndash; Frames Tests &ndash;&gt;-->
-<!--    <test name="Frames Tests">-->
-<!--        <classes>-->
-<!--            <class name="com.divhani.theinternet.FramesTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <!-- Frames Tests -->
+    <test name="Frames Tests">
+        <classes>
+            <class name="com.divhani.theinternet.FramesTest"/>
+        </classes>
+    </test>
 
     <!-- Drag and Drop Tests -->
     <test name="Drag and Drop Tests">
         <classes>
             <class name="com.divhani.theinternet.DragAndDropTest"/>
+        </classes>
+    </test>
+
+    <!-- File Upload Tests -->
+    <test name="File Upload Tests">
+        <classes>
+            <class name="com.divhani.theinternet.FileUploadTest"/>
         </classes>
     </test>
 
