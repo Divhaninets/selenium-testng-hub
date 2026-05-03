@@ -127,12 +127,27 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <!-- Inputs Tests -->
-    <test name="Inputs Tests">
+<!--    &lt;!&ndash; Inputs Tests &ndash;&gt;-->
+<!--    <test name="Inputs Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.InputsTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <!-- A/B Test Tests -->
+    <test name="AB Test Tests">
         <classes>
-            <class name="com.divhani.theinternet.InputsTest"/>
+            <class name="com.divhani.theinternet.AbTestTest"/>
         </classes>
     </test>
+
+    <!-- Status Codes Tests -->
+    <test name="Status Codes Tests">
+        <classes>
+            <class name="com.divhani.theinternet.StatusCodesTest"/>
+        </classes>
+    </test>
+
 
 
 

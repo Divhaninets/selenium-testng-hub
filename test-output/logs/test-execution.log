@@ -1,32 +1,47 @@
-2026-05-03 16:32:11 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:32:16 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:32:17 [INFO ] com.divhani.theinternet.InputsTest - Starting decrementWithArrowDownTest
-2026-05-03 16:32:22 [INFO ] com.divhani.pages.InputsPage - Navigated to Inputs page
-2026-05-03 16:32:22 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.cssSelector: input[type='number']
-2026-05-03 16:32:23 [INFO ] com.divhani.pages.InputsPage - Entered number: 10
-2026-05-03 16:32:24 [INFO ] com.divhani.pages.InputsPage - Decremented input 4 times
-2026-05-03 16:32:24 [INFO ] com.divhani.pages.InputsPage - Input value: 6
-2026-05-03 16:32:24 [INFO ] com.divhani.theinternet.InputsTest - decrementWithArrowDownTest passed
-2026-05-03 16:32:24 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:32:24 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:32:24 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:32:26 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:32:26 [INFO ] com.divhani.theinternet.InputsTest - Starting enterNumberTest
-2026-05-03 16:32:33 [INFO ] com.divhani.pages.InputsPage - Navigated to Inputs page
-2026-05-03 16:32:33 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.cssSelector: input[type='number']
-2026-05-03 16:32:34 [INFO ] com.divhani.pages.InputsPage - Entered number: 10
-2026-05-03 16:32:34 [INFO ] com.divhani.pages.InputsPage - Input value: 10
-2026-05-03 16:32:34 [INFO ] com.divhani.theinternet.InputsTest - enterNumberTest passed
-2026-05-03 16:32:34 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:32:34 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:32:34 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:32:37 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:32:37 [INFO ] com.divhani.theinternet.InputsTest - Starting incrementWithArrowUpTest
-2026-05-03 16:32:42 [INFO ] com.divhani.pages.InputsPage - Navigated to Inputs page
-2026-05-03 16:32:42 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.cssSelector: input[type='number']
-2026-05-03 16:32:44 [INFO ] com.divhani.pages.InputsPage - Entered number: 5
-2026-05-03 16:32:45 [INFO ] com.divhani.pages.InputsPage - Incremented input 3 times
-2026-05-03 16:32:45 [INFO ] com.divhani.pages.InputsPage - Input value: 8
-2026-05-03 16:32:45 [INFO ] com.divhani.theinternet.InputsTest - incrementWithArrowUpTest passed
-2026-05-03 16:32:45 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:32:45 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:36:34 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:36:40 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:36:40 [INFO ] com.divhani.theinternet.AbTestTest - Starting abTestPageLoadsTest
+2026-05-03 16:36:46 [INFO ] com.divhani.pages.AbTestPage - Navigated to A/B Test page
+2026-05-03 16:36:46 [INFO ] com.divhani.pages.AbTestPage - Heading text: A/B Test Control
+2026-05-03 16:36:46 [INFO ] com.divhani.theinternet.AbTestTest - abTestPageLoadsTest passed
+2026-05-03 16:36:46 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:36:47 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:36:48 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:36:50 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:36:50 [INFO ] com.divhani.theinternet.StatusCodesTest - Starting status200Test
+2026-05-03 16:36:57 [INFO ] com.divhani.pages.StatusCodesPage - Navigated to Status Codes page
+2026-05-03 16:36:57 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: 200
+2026-05-03 16:36:57 [INFO ] com.divhani.pages.StatusCodesPage - Clicked status code: 200
+2026-05-03 16:36:57 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.tagName: p
+2026-05-03 16:36:57 [INFO ] com.divhani.pages.StatusCodesPage - Page text: This page returned a 200 status code.
+
+For a definition and common list of HTTP status codes, go here
+2026-05-03 16:36:57 [INFO ] com.divhani.theinternet.StatusCodesTest - status200Test passed
+2026-05-03 16:36:57 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:36:58 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:36:58 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:37:00 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:37:00 [INFO ] com.divhani.theinternet.StatusCodesTest - Starting status404Test
+2026-05-03 16:37:06 [INFO ] com.divhani.pages.StatusCodesPage - Navigated to Status Codes page
+2026-05-03 16:37:06 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: 404
+2026-05-03 16:37:07 [INFO ] com.divhani.pages.StatusCodesPage - Clicked status code: 404
+2026-05-03 16:37:07 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.tagName: p
+2026-05-03 16:37:07 [INFO ] com.divhani.pages.StatusCodesPage - Page text: This page returned a 404 status code.
+
+For a definition and common list of HTTP status codes, go here
+2026-05-03 16:37:07 [INFO ] com.divhani.theinternet.StatusCodesTest - status404Test passed
+2026-05-03 16:37:07 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:37:07 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:37:07 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:37:09 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:37:10 [INFO ] com.divhani.theinternet.StatusCodesTest - Starting status500Test
+2026-05-03 16:37:16 [INFO ] com.divhani.pages.StatusCodesPage - Navigated to Status Codes page
+2026-05-03 16:37:16 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: 500
+2026-05-03 16:37:17 [INFO ] com.divhani.pages.StatusCodesPage - Clicked status code: 500
+2026-05-03 16:37:17 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.tagName: p
+2026-05-03 16:37:17 [INFO ] com.divhani.pages.StatusCodesPage - Page text: This page returned a 500 status code.
+
+For a definition and common list of HTTP status codes, go here
+2026-05-03 16:37:17 [INFO ] com.divhani.theinternet.StatusCodesTest - status500Test passed
+2026-05-03 16:37:17 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:37:17 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
