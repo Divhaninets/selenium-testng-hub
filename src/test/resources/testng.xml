@@ -22,4 +22,11 @@
         </classes>
     </test>
 
+    <!-- Dropdown Tests -->
+    <test name="Dropdown Tests">
+        <classes>
+            <class name="com.divhani.theinternet.DropdownTest"/>
+        </classes>
+    </test>
+
 </suite>
