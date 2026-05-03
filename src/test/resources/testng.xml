@@ -113,10 +113,17 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <!-- Notification Messages Tests -->
-    <test name="Notification Messages Tests">
+<!--    &lt;!&ndash; Notification Messages Tests &ndash;&gt;-->
+<!--    <test name="Notification Messages Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.NotificationMessagesTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <!-- Redirect Tests -->
+    <test name="Redirect Tests">
         <classes>
-            <class name="com.divhani.theinternet.NotificationMessagesTest"/>
+            <class name="com.divhani.theinternet.RedirectTest"/>
         </classes>
     </test>
 

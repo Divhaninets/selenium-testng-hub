@@ -1,22 +1,22 @@
-2026-05-03 16:19:44 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:19:47 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:19:47 [INFO ] com.divhani.theinternet.NotificationMessagesTest - Starting notificationAppearsAfterClickTest
-2026-05-03 16:19:54 [INFO ] com.divhani.pages.NotificationMessagesPage - Navigated to Notification Messages page
-2026-05-03 16:19:54 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: Click here
-2026-05-03 16:19:55 [INFO ] com.divhani.pages.NotificationMessagesPage - Clicked the link
-2026-05-03 16:19:55 [INFO ] com.divhani.pages.NotificationMessagesPage - Notification displayed: true
-2026-05-03 16:19:55 [INFO ] com.divhani.theinternet.NotificationMessagesTest - notificationAppearsAfterClickTest passed
-2026-05-03 16:19:55 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:19:55 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:19:55 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:19:57 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:19:57 [INFO ] com.divhani.theinternet.NotificationMessagesTest - Starting notificationIsOneOfExpectedMessagesTest
-2026-05-03 16:20:05 [INFO ] com.divhani.pages.NotificationMessagesPage - Navigated to Notification Messages page
-2026-05-03 16:20:05 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: Click here
-2026-05-03 16:20:06 [INFO ] com.divhani.pages.NotificationMessagesPage - Clicked the link
-2026-05-03 16:20:06 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: flash
-2026-05-03 16:20:06 [INFO ] com.divhani.pages.NotificationMessagesPage - Notification message: Action successful
-×
-2026-05-03 16:20:06 [INFO ] com.divhani.theinternet.NotificationMessagesTest - notificationIsOneOfExpectedMessagesTest passed
-2026-05-03 16:20:06 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:20:06 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:22:35 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:22:41 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:22:41 [INFO ] com.divhani.theinternet.RedirectTest - Starting redirectPageTitleTest
+2026-05-03 16:22:48 [INFO ] com.divhani.pages.RedirectPage - Navigated to Redirect page
+2026-05-03 16:22:48 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: here
+2026-05-03 16:22:48 [INFO ] com.divhani.pages.RedirectPage - Clicked redirect link
+2026-05-03 16:22:48 [INFO ] com.divhani.pages.RedirectPage - Current page title: The Internet
+2026-05-03 16:22:48 [INFO ] com.divhani.theinternet.RedirectTest - redirectPageTitleTest passed
+2026-05-03 16:22:48 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:22:49 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:22:49 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:22:50 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:22:50 [INFO ] com.divhani.theinternet.RedirectTest - Starting redirectsToCorrectPageTest
+2026-05-03 16:22:55 [INFO ] com.divhani.pages.RedirectPage - Navigated to Redirect page
+2026-05-03 16:22:55 [INFO ] com.divhani.pages.RedirectPage - Current URL: https://the-internet.herokuapp.com/redirector
+2026-05-03 16:22:55 [INFO ] com.divhani.theinternet.RedirectTest - Initial URL: https://the-internet.herokuapp.com/redirector
+2026-05-03 16:22:55 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: here
+2026-05-03 16:22:56 [INFO ] com.divhani.pages.RedirectPage - Clicked redirect link
+2026-05-03 16:22:56 [INFO ] com.divhani.pages.RedirectPage - Current URL: https://the-internet.herokuapp.com/status_codes
+2026-05-03 16:22:56 [INFO ] com.divhani.theinternet.RedirectTest - redirectsToCorrectPageTest passed
+2026-05-03 16:22:56 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:22:57 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
