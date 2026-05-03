@@ -85,10 +85,17 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <!-- Key Presses Tests -->
-    <test name="Key Presses Tests">
+<!--    &lt;!&ndash; Key Presses Tests &ndash;&gt;-->
+<!--    <test name="Key Presses Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.KeyPressesTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <!-- Context Menu Tests -->
+    <test name="Context Menu Tests">
         <classes>
-            <class name="com.divhani.theinternet.KeyPressesTest"/>
+            <class name="com.divhani.theinternet.ContextMenuTest"/>
         </classes>
     </test>
 

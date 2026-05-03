@@ -1,33 +1,11 @@
-2026-05-03 16:03:03 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:03:06 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:03:07 [INFO ] com.divhani.theinternet.KeyPressesTest - Starting pressArrowDownTest
-2026-05-03 16:03:11 [INFO ] com.divhani.pages.KeyPressesPage - Navigated to Key Presses page
-2026-05-03 16:03:11 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: target
-2026-05-03 16:03:11 [INFO ] com.divhani.pages.KeyPressesPage - Pressed ARROW DOWN key
-2026-05-03 16:03:11 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: result
-2026-05-03 16:03:11 [INFO ] com.divhani.pages.KeyPressesPage - Result text: You entered: DOWN
-2026-05-03 16:03:11 [INFO ] com.divhani.theinternet.KeyPressesTest - pressArrowDownTest passed
-2026-05-03 16:03:11 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:03:12 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:03:12 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:03:13 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:03:13 [INFO ] com.divhani.theinternet.KeyPressesTest - Starting pressEscapeKeyTest
-2026-05-03 16:03:18 [INFO ] com.divhani.pages.KeyPressesPage - Navigated to Key Presses page
-2026-05-03 16:03:18 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: target
-2026-05-03 16:03:18 [INFO ] com.divhani.pages.KeyPressesPage - Pressed ESCAPE key
-2026-05-03 16:03:18 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: result
-2026-05-03 16:03:19 [INFO ] com.divhani.pages.KeyPressesPage - Result text: You entered: ESCAPE
-2026-05-03 16:03:19 [INFO ] com.divhani.theinternet.KeyPressesTest - pressEscapeKeyTest passed
-2026-05-03 16:03:19 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:03:19 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:03:19 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:03:20 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:03:20 [INFO ] com.divhani.theinternet.KeyPressesTest - Starting pressTabKeyTest
-2026-05-03 16:03:28 [INFO ] com.divhani.pages.KeyPressesPage - Navigated to Key Presses page
-2026-05-03 16:03:28 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: target
-2026-05-03 16:03:28 [INFO ] com.divhani.pages.KeyPressesPage - Pressed TAB key
-2026-05-03 16:03:28 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: result
-2026-05-03 16:03:28 [INFO ] com.divhani.pages.KeyPressesPage - Result text: You entered: TAB
-2026-05-03 16:03:28 [INFO ] com.divhani.theinternet.KeyPressesTest - pressTabKeyTest passed
-2026-05-03 16:03:28 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:03:28 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:05:38 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:05:40 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:05:41 [INFO ] com.divhani.theinternet.ContextMenuTest - Starting rightClickShowsAlertTest
+2026-05-03 16:05:47 [INFO ] com.divhani.pages.ContextMenuPage - Navigated to Context Menu page
+2026-05-03 16:05:47 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: hot-spot
+2026-05-03 16:05:48 [INFO ] com.divhani.pages.ContextMenuPage - Right clicked on hotspot
+2026-05-03 16:05:48 [INFO ] com.divhani.pages.ContextMenuPage - Alert text: You selected a context menu
+2026-05-03 16:05:48 [INFO ] com.divhani.pages.ContextMenuPage - Alert accepted
+2026-05-03 16:05:48 [INFO ] com.divhani.theinternet.ContextMenuTest - rightClickShowsAlertTest passed
+2026-05-03 16:05:48 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:05:48 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
