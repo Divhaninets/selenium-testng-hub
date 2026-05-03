@@ -65,6 +65,13 @@
             <version>2.23.1</version>
         </dependency>
 
+        <!-- Apache Commons IO - file handling utilities including screenshot saving -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.15.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>

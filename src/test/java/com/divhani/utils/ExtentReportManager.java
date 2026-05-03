@@ -4,6 +4,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -73,7 +74,30 @@ public class ExtentReportManager implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
         // Called when a test fails
-        // Logs the failure reason in the report
+        // Get the driver from the failed test class
+        Object testClass = result.getInstance();
+        WebDriver driver = null;
+
+        try {
+            // Access the driver field from BaseTest
+            java.lang.reflect.Field field = testClass.getClass()
+                    .getSuperclass()
+                    .getDeclaredField("driver");
+            field.setAccessible(true);
+            driver = (WebDriver) field.get(testClass);
+        } catch (Exception e) {
+            test.fail("Could not get driver for screenshot: " + e.getMessage());
+        }
+
+        // Take screenshot and attach to report
+        if (driver != null) {
+            String screenshotPath = ScreenshotUtil.takeScreenshot(driver,
+                    result.getMethod().getMethodName());
+            test.addScreenCaptureFromPath(screenshotPath,
+                    "Screenshot on failure");
+        }
+
+        // Log the failure
         test.fail("Test failed: " + result.getMethod().getMethodName());
         test.fail(result.getThrowable());
     }
