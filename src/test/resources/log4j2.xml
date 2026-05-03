@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <!--
+    LOG4J2 CONFIGURATION
+    ====================
+    This file controls how logging works in our framework.
+
+    Two appenders (output destinations):
+    1. Console  - prints logs to the terminal while tests run
+    2. File     - saves logs to a file for permanent record
+
+    Log levels (in order of severity):
+    TRACE -> DEBUG -> INFO -> WARN -> ERROR -> FATAL
+
+    We use INFO level - meaning INFO, WARN, ERROR and FATAL will be logged.
+    DEBUG and TRACE will be ignored (too detailed for normal runs)
+    -->
+
+    <Appenders>
+
+        <!-- CONSOLE APPENDER - prints to terminal -->
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} [%-5level] %logger{1} - %msg%n"/>
+        </Console>
+
+        <!-- FILE APPENDER - saves to a log file -->
+        <File name="FileAppender" fileName="test-output/logs/test-execution.log" append="false">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%-5level] %logger{36} - %msg%n"/>
+        </File>
+
+    </Appenders>
+
+    <Loggers>
+        <!-- Root logger - applies to everything in our project -->
+        <Root level="INFO">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

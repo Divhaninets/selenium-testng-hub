@@ -1,0 +1,8 @@
+2026-05-03 13:09:36 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 13:09:39 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 13:09:48 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 13:09:48 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 13:09:48 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 13:09:50 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 13:09:58 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 13:09:58 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
