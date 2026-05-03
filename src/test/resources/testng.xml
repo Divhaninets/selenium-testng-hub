@@ -106,10 +106,17 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <!-- Broken Images Tests -->
-    <test name="Broken Images Tests">
+<!--    &lt;!&ndash; Broken Images Tests &ndash;&gt;-->
+<!--    <test name="Broken Images Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.BrokenImagesTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <!-- Notification Messages Tests -->
+    <test name="Notification Messages Tests">
         <classes>
-            <class name="com.divhani.theinternet.BrokenImagesTest"/>
+            <class name="com.divhani.theinternet.NotificationMessagesTest"/>
         </classes>
     </test>
 
