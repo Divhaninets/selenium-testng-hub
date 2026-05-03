@@ -99,10 +99,17 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <!-- Add Remove Elements Tests -->
-    <test name="Add Remove Elements Tests">
+<!--    &lt;!&ndash; Add Remove Elements Tests &ndash;&gt;-->
+<!--    <test name="Add Remove Elements Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.AddRemoveElementsTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <!-- Broken Images Tests -->
+    <test name="Broken Images Tests">
         <classes>
-            <class name="com.divhani.theinternet.AddRemoveElementsTest"/>
+            <class name="com.divhani.theinternet.BrokenImagesTest"/>
         </classes>
     </test>
 

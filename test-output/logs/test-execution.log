@@ -1,61 +1,33 @@
-2026-05-03 16:08:26 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:08:30 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:08:30 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - Starting addMultipleElementsTest
-2026-05-03 16:08:37 [INFO ] com.divhani.pages.AddRemoveElementsPage - Navigated to Add/Remove Elements page
-2026-05-03 16:08:37 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
-2026-05-03 16:08:37 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
-2026-05-03 16:08:37 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
-2026-05-03 16:08:37 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
-2026-05-03 16:08:37 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
-2026-05-03 16:08:38 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
-2026-05-03 16:08:38 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
-2026-05-03 16:08:38 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
-2026-05-03 16:08:38 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
-2026-05-03 16:08:38 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
-2026-05-03 16:08:38 [INFO ] com.divhani.pages.AddRemoveElementsPage - Added 5 elements
-2026-05-03 16:08:38 [INFO ] com.divhani.pages.AddRemoveElementsPage - Delete button count: 5
-2026-05-03 16:08:38 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - addMultipleElementsTest passed
-2026-05-03 16:08:38 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:08:38 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:08:38 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:08:40 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:08:40 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - Starting addSingleElementTest
-2026-05-03 16:08:47 [INFO ] com.divhani.pages.AddRemoveElementsPage - Navigated to Add/Remove Elements page
-2026-05-03 16:08:47 [INFO ] com.divhani.pages.AddRemoveElementsPage - Delete button count: 0
-2026-05-03 16:08:47 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
-2026-05-03 16:08:47 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
-2026-05-03 16:08:47 [INFO ] com.divhani.pages.AddRemoveElementsPage - Delete button count: 1
-2026-05-03 16:08:47 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - addSingleElementTest passed
-2026-05-03 16:08:47 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:08:48 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:08:48 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:08:49 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:08:49 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - Starting deleteAllElementsTest
-2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Navigated to Add/Remove Elements page
-2026-05-03 16:08:56 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
-2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
-2026-05-03 16:08:56 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
-2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
-2026-05-03 16:08:56 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
-2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
-2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Added 3 elements
-2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Deleted element 1
-2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Deleted element 2
-2026-05-03 16:08:57 [INFO ] com.divhani.pages.AddRemoveElementsPage - Deleted element 3
-2026-05-03 16:08:57 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - deleteAllElementsTest passed
-2026-05-03 16:08:57 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:08:57 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:08:57 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:08:58 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:08:58 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - Starting removeElementTest
-2026-05-03 16:09:03 [INFO ] com.divhani.pages.AddRemoveElementsPage - Navigated to Add/Remove Elements page
-2026-05-03 16:09:03 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
-2026-05-03 16:09:04 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
-2026-05-03 16:09:04 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
-2026-05-03 16:09:04 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
-2026-05-03 16:09:04 [INFO ] com.divhani.pages.AddRemoveElementsPage - Delete button count: 2
-2026-05-03 16:09:04 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked delete button at index: 0
-2026-05-03 16:09:04 [INFO ] com.divhani.pages.AddRemoveElementsPage - Delete button count: 1
-2026-05-03 16:09:04 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - removeElementTest passed
-2026-05-03 16:09:04 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:09:04 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:15:37 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:15:42 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:15:42 [INFO ] com.divhani.theinternet.BrokenImagesTest - Starting brokenImagesExistTest
+2026-05-03 16:15:49 [INFO ] com.divhani.pages.BrokenImagesPage - Navigated to Broken Images page
+2026-05-03 16:15:49 [INFO ] com.divhani.pages.BrokenImagesPage - Image src: https://the-internet.herokuapp.com/img/forkme_right_green_007200.png | Broken: false
+2026-05-03 16:15:49 [INFO ] com.divhani.pages.BrokenImagesPage - Image src: https://the-internet.herokuapp.com/asdf.jpg | Broken: true
+2026-05-03 16:15:49 [INFO ] com.divhani.pages.BrokenImagesPage - Image src: https://the-internet.herokuapp.com/hjkl.jpg | Broken: true
+2026-05-03 16:15:49 [INFO ] com.divhani.pages.BrokenImagesPage - Image src: https://the-internet.herokuapp.com/img/avatar-blank.jpg | Broken: false
+2026-05-03 16:15:49 [INFO ] com.divhani.pages.BrokenImagesPage - Broken image count: 2
+2026-05-03 16:15:49 [INFO ] com.divhani.theinternet.BrokenImagesTest - Broken images found: [https://the-internet.herokuapp.com/asdf.jpg, https://the-internet.herokuapp.com/hjkl.jpg]
+2026-05-03 16:15:49 [INFO ] com.divhani.theinternet.BrokenImagesTest - brokenImagesExistTest passed
+2026-05-03 16:15:49 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:15:49 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:15:49 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:15:51 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:15:51 [INFO ] com.divhani.theinternet.BrokenImagesTest - Starting pageHasImagesTest
+2026-05-03 16:15:58 [INFO ] com.divhani.pages.BrokenImagesPage - Navigated to Broken Images page
+2026-05-03 16:15:58 [INFO ] com.divhani.pages.BrokenImagesPage - Total images on page: 4
+2026-05-03 16:15:58 [INFO ] com.divhani.theinternet.BrokenImagesTest - pageHasImagesTest passed
+2026-05-03 16:15:58 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:15:59 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:15:59 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:16:01 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:16:01 [INFO ] com.divhani.theinternet.BrokenImagesTest - Starting validImagesExistTest
+2026-05-03 16:16:08 [INFO ] com.divhani.pages.BrokenImagesPage - Navigated to Broken Images page
+2026-05-03 16:16:08 [INFO ] com.divhani.pages.BrokenImagesPage - Image src: https://the-internet.herokuapp.com/img/forkme_right_green_007200.png | Broken: false
+2026-05-03 16:16:08 [INFO ] com.divhani.pages.BrokenImagesPage - Image src: https://the-internet.herokuapp.com/asdf.jpg | Broken: true
+2026-05-03 16:16:08 [INFO ] com.divhani.pages.BrokenImagesPage - Image src: https://the-internet.herokuapp.com/hjkl.jpg | Broken: true
+2026-05-03 16:16:08 [INFO ] com.divhani.pages.BrokenImagesPage - Image src: https://the-internet.herokuapp.com/img/avatar-blank.jpg | Broken: false
+2026-05-03 16:16:08 [INFO ] com.divhani.pages.BrokenImagesPage - Valid image count: 2
+2026-05-03 16:16:08 [INFO ] com.divhani.theinternet.BrokenImagesTest - validImagesExistTest passed
+2026-05-03 16:16:08 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:16:09 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
