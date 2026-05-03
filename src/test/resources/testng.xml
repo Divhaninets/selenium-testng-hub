@@ -92,10 +92,17 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <!-- Context Menu Tests -->
-    <test name="Context Menu Tests">
+<!--    &lt;!&ndash; Context Menu Tests &ndash;&gt;-->
+<!--    <test name="Context Menu Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.divhani.theinternet.ContextMenuTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <!-- Add Remove Elements Tests -->
+    <test name="Add Remove Elements Tests">
         <classes>
-            <class name="com.divhani.theinternet.ContextMenuTest"/>
+            <class name="com.divhani.theinternet.AddRemoveElementsTest"/>
         </classes>
     </test>
 

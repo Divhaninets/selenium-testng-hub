@@ -1,11 +1,61 @@
-2026-05-03 16:05:38 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:05:40 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:05:41 [INFO ] com.divhani.theinternet.ContextMenuTest - Starting rightClickShowsAlertTest
-2026-05-03 16:05:47 [INFO ] com.divhani.pages.ContextMenuPage - Navigated to Context Menu page
-2026-05-03 16:05:47 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: hot-spot
-2026-05-03 16:05:48 [INFO ] com.divhani.pages.ContextMenuPage - Right clicked on hotspot
-2026-05-03 16:05:48 [INFO ] com.divhani.pages.ContextMenuPage - Alert text: You selected a context menu
-2026-05-03 16:05:48 [INFO ] com.divhani.pages.ContextMenuPage - Alert accepted
-2026-05-03 16:05:48 [INFO ] com.divhani.theinternet.ContextMenuTest - rightClickShowsAlertTest passed
-2026-05-03 16:05:48 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:05:48 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:08:26 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:08:30 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:08:30 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - Starting addMultipleElementsTest
+2026-05-03 16:08:37 [INFO ] com.divhani.pages.AddRemoveElementsPage - Navigated to Add/Remove Elements page
+2026-05-03 16:08:37 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
+2026-05-03 16:08:37 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
+2026-05-03 16:08:37 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
+2026-05-03 16:08:37 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
+2026-05-03 16:08:37 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
+2026-05-03 16:08:38 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
+2026-05-03 16:08:38 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
+2026-05-03 16:08:38 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
+2026-05-03 16:08:38 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
+2026-05-03 16:08:38 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
+2026-05-03 16:08:38 [INFO ] com.divhani.pages.AddRemoveElementsPage - Added 5 elements
+2026-05-03 16:08:38 [INFO ] com.divhani.pages.AddRemoveElementsPage - Delete button count: 5
+2026-05-03 16:08:38 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - addMultipleElementsTest passed
+2026-05-03 16:08:38 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:08:38 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:08:38 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:08:40 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:08:40 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - Starting addSingleElementTest
+2026-05-03 16:08:47 [INFO ] com.divhani.pages.AddRemoveElementsPage - Navigated to Add/Remove Elements page
+2026-05-03 16:08:47 [INFO ] com.divhani.pages.AddRemoveElementsPage - Delete button count: 0
+2026-05-03 16:08:47 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
+2026-05-03 16:08:47 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
+2026-05-03 16:08:47 [INFO ] com.divhani.pages.AddRemoveElementsPage - Delete button count: 1
+2026-05-03 16:08:47 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - addSingleElementTest passed
+2026-05-03 16:08:47 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:08:48 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:08:48 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:08:49 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:08:49 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - Starting deleteAllElementsTest
+2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Navigated to Add/Remove Elements page
+2026-05-03 16:08:56 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
+2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
+2026-05-03 16:08:56 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
+2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
+2026-05-03 16:08:56 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
+2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
+2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Added 3 elements
+2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Deleted element 1
+2026-05-03 16:08:56 [INFO ] com.divhani.pages.AddRemoveElementsPage - Deleted element 2
+2026-05-03 16:08:57 [INFO ] com.divhani.pages.AddRemoveElementsPage - Deleted element 3
+2026-05-03 16:08:57 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - deleteAllElementsTest passed
+2026-05-03 16:08:57 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:08:57 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:08:57 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:08:58 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:08:58 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - Starting removeElementTest
+2026-05-03 16:09:03 [INFO ] com.divhani.pages.AddRemoveElementsPage - Navigated to Add/Remove Elements page
+2026-05-03 16:09:03 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
+2026-05-03 16:09:04 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
+2026-05-03 16:09:04 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Add Element']
+2026-05-03 16:09:04 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked Add Element button
+2026-05-03 16:09:04 [INFO ] com.divhani.pages.AddRemoveElementsPage - Delete button count: 2
+2026-05-03 16:09:04 [INFO ] com.divhani.pages.AddRemoveElementsPage - Clicked delete button at index: 0
+2026-05-03 16:09:04 [INFO ] com.divhani.pages.AddRemoveElementsPage - Delete button count: 1
+2026-05-03 16:09:04 [INFO ] com.divhani.theinternet.AddRemoveElementsTest - removeElementTest passed
+2026-05-03 16:09:04 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:09:04 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
