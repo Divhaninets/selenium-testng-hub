@@ -1,222 +1,35 @@
-2026-05-03 15:21:22 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:21:25 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:21:34 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: flash
-2026-05-03 15:21:34 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:21:34 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:21:34 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:21:36 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:21:44 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: flash
-2026-05-03 15:21:45 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:21:45 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:21:46 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:21:47 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:21:47 [INFO ] com.divhani.theinternet.CheckboxesTest - Starting checkCheckbox1Test
-2026-05-03 15:21:54 [INFO ] com.divhani.pages.CheckboxesPage - Navigated to Checkboxes page
-2026-05-03 15:21:54 [INFO ] com.divhani.pages.CheckboxesPage - Checkbox 1 checked
-2026-05-03 15:21:54 [INFO ] com.divhani.pages.CheckboxesPage - Checkbox 1 selected: true
-2026-05-03 15:21:54 [INFO ] com.divhani.theinternet.CheckboxesTest - checkCheckbox1Test passed
-2026-05-03 15:21:54 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:21:55 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:21:55 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:21:56 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:21:56 [INFO ] com.divhani.theinternet.CheckboxesTest - Starting checkbox2IsCheckedByDefaultTest
-2026-05-03 15:22:03 [INFO ] com.divhani.pages.CheckboxesPage - Navigated to Checkboxes page
-2026-05-03 15:22:03 [INFO ] com.divhani.pages.CheckboxesPage - Checkbox 2 selected: true
-2026-05-03 15:22:03 [INFO ] com.divhani.theinternet.CheckboxesTest - checkbox2IsCheckedByDefaultTest passed
-2026-05-03 15:22:03 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:22:04 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:22:04 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:22:05 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:22:05 [INFO ] com.divhani.theinternet.CheckboxesTest - Starting uncheckCheckbox1Test
-2026-05-03 15:22:12 [INFO ] com.divhani.pages.CheckboxesPage - Navigated to Checkboxes page
-2026-05-03 15:22:12 [INFO ] com.divhani.pages.CheckboxesPage - Checkbox 1 checked
-2026-05-03 15:22:12 [INFO ] com.divhani.pages.CheckboxesPage - Checkbox 1 selected: true
-2026-05-03 15:22:12 [INFO ] com.divhani.pages.CheckboxesPage - Checkbox 1 unchecked
-2026-05-03 15:22:12 [INFO ] com.divhani.pages.CheckboxesPage - Checkbox 1 selected: false
-2026-05-03 15:22:12 [INFO ] com.divhani.theinternet.CheckboxesTest - uncheckCheckbox1Test passed
-2026-05-03 15:22:12 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:22:13 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:22:13 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:22:14 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:22:14 [INFO ] com.divhani.theinternet.DropdownTest - Starting selectByIndexTest
-2026-05-03 15:22:22 [INFO ] com.divhani.pages.DropdownPage - Navigated to Dropdown page
-2026-05-03 15:22:22 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: dropdown
-2026-05-03 15:22:22 [INFO ] com.divhani.pages.DropdownPage - Selected option by index: 1
-2026-05-03 15:22:22 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: dropdown
-2026-05-03 15:22:22 [INFO ] com.divhani.pages.DropdownPage - Currently selected option: Option 1
-2026-05-03 15:22:22 [INFO ] com.divhani.theinternet.DropdownTest - selectByIndexTest passed
-2026-05-03 15:22:22 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:22:22 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:22:22 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:22:24 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:22:24 [INFO ] com.divhani.theinternet.DropdownTest - Starting selectByValueTest
-2026-05-03 15:22:31 [INFO ] com.divhani.pages.DropdownPage - Navigated to Dropdown page
-2026-05-03 15:22:31 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: dropdown
-2026-05-03 15:22:31 [INFO ] com.divhani.pages.DropdownPage - Selected option by value: 2
-2026-05-03 15:22:31 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: dropdown
-2026-05-03 15:22:31 [INFO ] com.divhani.pages.DropdownPage - Currently selected option: Option 2
-2026-05-03 15:22:31 [INFO ] com.divhani.theinternet.DropdownTest - selectByValueTest passed
-2026-05-03 15:22:31 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:22:32 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:22:32 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:22:33 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:22:33 [INFO ] com.divhani.theinternet.DropdownTest - Starting selectByVisibleTextTest
-2026-05-03 15:22:41 [INFO ] com.divhani.pages.DropdownPage - Navigated to Dropdown page
-2026-05-03 15:22:41 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: dropdown
-2026-05-03 15:22:41 [INFO ] com.divhani.pages.DropdownPage - Selected option by visible text: Option 1
-2026-05-03 15:22:41 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: dropdown
-2026-05-03 15:22:41 [INFO ] com.divhani.pages.DropdownPage - Currently selected option: Option 1
-2026-05-03 15:22:41 [INFO ] com.divhani.theinternet.DropdownTest - selectByVisibleTextTest passed
-2026-05-03 15:22:41 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:22:41 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:22:41 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:22:43 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:22:43 [INFO ] com.divhani.theinternet.JavaScriptAlertsTest - Starting jsAlertAcceptTest
-2026-05-03 15:22:49 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Navigated to JavaScript Alerts page
-2026-05-03 15:22:49 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Click for JS Alert']
-2026-05-03 15:22:49 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Clicked JS Alert button
-2026-05-03 15:22:49 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Alert text: I am a JS Alert
-2026-05-03 15:22:49 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Alert accepted
-2026-05-03 15:22:49 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: result
-2026-05-03 15:22:49 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Result text: You successfully clicked an alert
-2026-05-03 15:22:49 [INFO ] com.divhani.theinternet.JavaScriptAlertsTest - jsAlertAcceptTest passed
-2026-05-03 15:22:49 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:22:49 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:22:49 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:22:50 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:22:50 [INFO ] com.divhani.theinternet.JavaScriptAlertsTest - Starting jsConfirmAcceptTest
-2026-05-03 15:22:56 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Navigated to JavaScript Alerts page
-2026-05-03 15:22:56 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Click for JS Confirm']
-2026-05-03 15:22:56 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Clicked JS Confirm button
-2026-05-03 15:22:56 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Confirm text: I am a JS Confirm
-2026-05-03 15:22:56 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Confirm accepted
-2026-05-03 15:22:56 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: result
-2026-05-03 15:22:56 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Result text: You clicked: Ok
-2026-05-03 15:22:56 [INFO ] com.divhani.theinternet.JavaScriptAlertsTest - jsConfirmAcceptTest passed
-2026-05-03 15:22:56 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:22:56 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:22:56 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:22:58 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:22:58 [INFO ] com.divhani.theinternet.JavaScriptAlertsTest - Starting jsConfirmDismissTest
-2026-05-03 15:23:04 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Navigated to JavaScript Alerts page
-2026-05-03 15:23:04 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Click for JS Confirm']
-2026-05-03 15:23:04 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Clicked JS Confirm button
-2026-05-03 15:23:04 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Confirm dismissed
-2026-05-03 15:23:04 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: result
-2026-05-03 15:23:04 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Result text: You clicked: Cancel
-2026-05-03 15:23:04 [INFO ] com.divhani.theinternet.JavaScriptAlertsTest - jsConfirmDismissTest passed
-2026-05-03 15:23:04 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:23:05 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:23:05 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:23:06 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:23:06 [INFO ] com.divhani.theinternet.JavaScriptAlertsTest - Starting jsPromptTest
-2026-05-03 15:23:13 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Navigated to JavaScript Alerts page
-2026-05-03 15:23:13 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.xpath: //button[text()='Click for JS Prompt']
-2026-05-03 15:23:14 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Clicked JS Prompt button
-2026-05-03 15:23:14 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Entered text in prompt: Divhani
-2026-05-03 15:23:14 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Prompt accepted
-2026-05-03 15:23:14 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: result
-2026-05-03 15:23:14 [INFO ] com.divhani.pages.JavaScriptAlertsPage - Result text: You entered: Divhani
-2026-05-03 15:23:14 [INFO ] com.divhani.theinternet.JavaScriptAlertsTest - jsPromptTest passed
-2026-05-03 15:23:14 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:23:14 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:23:14 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:23:15 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:23:15 [INFO ] com.divhani.theinternet.MultipleWindowsTest - Starting newWindowOpensTest
-2026-05-03 15:23:21 [INFO ] com.divhani.pages.MultipleWindowsPage - Navigated to Multiple Windows page. Original window: ADA26CEBA939AC80B4606E080E061784
-2026-05-03 15:23:21 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: Click Here
-2026-05-03 15:23:21 [INFO ] com.divhani.pages.MultipleWindowsPage - Clicked link to open new window
-2026-05-03 15:23:21 [INFO ] com.divhani.theinternet.MultipleWindowsTest - newWindowOpensTest passed
-2026-05-03 15:23:21 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:23:21 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:23:21 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:23:22 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:23:23 [INFO ] com.divhani.theinternet.MultipleWindowsTest - Starting switchBackToOriginalWindowTest
-2026-05-03 15:23:28 [INFO ] com.divhani.pages.MultipleWindowsPage - Navigated to Multiple Windows page. Original window: 878CE82651425E6EDD805B83AA5C91B7
-2026-05-03 15:23:28 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: Click Here
-2026-05-03 15:23:28 [INFO ] com.divhani.pages.MultipleWindowsPage - Clicked link to open new window
-2026-05-03 15:23:28 [INFO ] com.divhani.pages.MultipleWindowsPage - Total windows open: 2
-2026-05-03 15:23:28 [INFO ] com.divhani.pages.MultipleWindowsPage - Switched to new window: 15BD2940152AABE52CD3264C159C71FC
-2026-05-03 15:23:28 [INFO ] com.divhani.pages.MultipleWindowsPage - Switched back to original window
-2026-05-03 15:23:28 [INFO ] com.divhani.pages.MultipleWindowsPage - Current page title: The Internet
-2026-05-03 15:23:28 [INFO ] com.divhani.theinternet.MultipleWindowsTest - switchBackToOriginalWindowTest passed
-2026-05-03 15:23:28 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:23:28 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:23:28 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:23:29 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:23:29 [INFO ] com.divhani.theinternet.MultipleWindowsTest - Starting switchToNewWindowTest
-2026-05-03 15:23:37 [INFO ] com.divhani.pages.MultipleWindowsPage - Navigated to Multiple Windows page. Original window: 2F8414C5537EA7A015C8886A4BD03F26
-2026-05-03 15:23:37 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.linkText: Click Here
-2026-05-03 15:23:37 [INFO ] com.divhani.pages.MultipleWindowsPage - Clicked link to open new window
-2026-05-03 15:23:37 [INFO ] com.divhani.pages.MultipleWindowsPage - Total windows open: 2
-2026-05-03 15:23:37 [INFO ] com.divhani.pages.MultipleWindowsPage - Switched to new window: 174383CBB6AC4407689F8495A2CA16F3
-2026-05-03 15:23:37 [INFO ] com.divhani.pages.MultipleWindowsPage - Current page title: New Window
-2026-05-03 15:23:37 [INFO ] com.divhani.theinternet.MultipleWindowsTest - switchToNewWindowTest passed
-2026-05-03 15:23:37 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:23:37 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:23:38 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:23:39 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:23:39 [INFO ] com.divhani.theinternet.FramesTest - Starting switchBackToMainPageTest
-2026-05-03 15:23:47 [INFO ] com.divhani.pages.FramesPage - Navigated to iFrame page
-2026-05-03 15:23:47 [INFO ] com.divhani.pages.FramesPage - Switched into iFrame
-2026-05-03 15:23:47 [INFO ] com.divhani.pages.FramesPage - iFrame body text: Your content goes here.
-2026-05-03 15:23:47 [INFO ] com.divhani.pages.FramesPage - Switched back to main page
-2026-05-03 15:23:47 [INFO ] com.divhani.theinternet.FramesTest - switchBackToMainPageTest passed
-2026-05-03 15:23:47 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:23:48 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:23:48 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:23:49 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:23:49 [INFO ] com.divhani.theinternet.FramesTest - Starting switchIntoIFrameTest
-2026-05-03 15:23:55 [INFO ] com.divhani.pages.FramesPage - Navigated to iFrame page
-2026-05-03 15:23:55 [INFO ] com.divhani.pages.FramesPage - Switched into iFrame
-2026-05-03 15:23:55 [INFO ] com.divhani.pages.FramesPage - iFrame body text: Your content goes here.
-2026-05-03 15:23:55 [INFO ] com.divhani.theinternet.FramesTest - switchIntoIFrameTest passed
-2026-05-03 15:23:55 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:23:55 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:23:55 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:23:57 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:23:57 [INFO ] com.divhani.theinternet.FramesTest - Starting switchToNestedFrameTest
-2026-05-03 15:24:02 [INFO ] com.divhani.pages.FramesPage - Navigated to Nested Frames page
-2026-05-03 15:24:03 [INFO ] com.divhani.theinternet.FramesTest - switchToNestedFrameTest passed
-2026-05-03 15:24:03 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:24:03 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:24:03 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:24:04 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:24:04 [INFO ] com.divhani.theinternet.DragAndDropTest - Starting dragAndDropTest
-2026-05-03 15:24:12 [INFO ] com.divhani.pages.DragAndDropPage - Navigated to Drag and Drop page
-2026-05-03 15:24:12 [INFO ] com.divhani.pages.DragAndDropPage - Box A contains: A
-2026-05-03 15:24:12 [INFO ] com.divhani.pages.DragAndDropPage - Box B contains: B
-2026-05-03 15:24:12 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: column-a
-2026-05-03 15:24:12 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: column-b
-2026-05-03 15:24:12 [INFO ] com.divhani.pages.DragAndDropPage - Dragged Box A to Box B using dragAndDrop()
-2026-05-03 15:24:12 [INFO ] com.divhani.pages.DragAndDropPage - Box A contains: B
-2026-05-03 15:24:12 [INFO ] com.divhani.pages.DragAndDropPage - Box B contains: A
-2026-05-03 15:24:12 [INFO ] com.divhani.theinternet.DragAndDropTest - dragAndDropTest passed
-2026-05-03 15:24:12 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:24:13 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:24:13 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:24:14 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:24:14 [INFO ] com.divhani.theinternet.FileUploadTest - Starting uploadFileTest
-2026-05-03 15:24:21 [INFO ] com.divhani.pages.FileUploadPage - Navigated to File Upload page
-2026-05-03 15:24:21 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: file-upload
-2026-05-03 15:24:21 [INFO ] com.divhani.pages.FileUploadPage - File path entered: C:\Users\divha\IdeaProjects\selenium-testng-hub\src\test\testdata\testfile.txt
-2026-05-03 15:24:21 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.id: file-submit
-2026-05-03 15:24:21 [INFO ] com.divhani.pages.FileUploadPage - Clicked Upload button
-2026-05-03 15:24:21 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.tagName: h3
-2026-05-03 15:24:21 [INFO ] com.divhani.pages.FileUploadPage - Success header: File Uploaded!
-2026-05-03 15:24:21 [INFO ] com.divhani.theinternet.FileUploadTest - uploadFileTest passed
-2026-05-03 15:24:21 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:24:22 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 15:24:22 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 15:24:23 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 15:24:23 [INFO ] com.divhani.theinternet.FileUploadTest - Starting uploadedFileNameIsCorrectTest
-2026-05-03 15:24:30 [INFO ] com.divhani.pages.FileUploadPage - Navigated to File Upload page
-2026-05-03 15:24:30 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: file-upload
-2026-05-03 15:24:30 [INFO ] com.divhani.pages.FileUploadPage - File path entered: C:\Users\divha\IdeaProjects\selenium-testng-hub\src\test\testdata\testfile.txt
-2026-05-03 15:24:30 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be clickable: By.id: file-submit
-2026-05-03 15:24:31 [INFO ] com.divhani.pages.FileUploadPage - Clicked Upload button
-2026-05-03 15:24:31 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.id: uploaded-files
-2026-05-03 15:24:31 [INFO ] com.divhani.pages.FileUploadPage - Uploaded file name shown: testfile.txt
-2026-05-03 15:24:31 [INFO ] com.divhani.theinternet.FileUploadTest - uploadedFileNameIsCorrectTest passed
-2026-05-03 15:24:31 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 15:24:31 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 15:30:30 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 15:30:34 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 15:30:34 [INFO ] com.divhani.theinternet.HoversTest - Starting hoverCaptionTextTest
+2026-05-03 15:30:40 [INFO ] com.divhani.pages.HoversPage - Navigated to Hovers page
+2026-05-03 15:30:40 [INFO ] com.divhani.pages.HoversPage - Hovered over figure at index: 0
+2026-05-03 15:30:41 [INFO ] com.divhani.pages.HoversPage - Caption text at index 0: name: user1
+View profile
+2026-05-03 15:30:41 [INFO ] com.divhani.theinternet.HoversTest - hoverCaptionTextTest passed
+2026-05-03 15:30:41 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 15:30:41 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 15:30:41 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 15:30:42 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 15:30:42 [INFO ] com.divhani.theinternet.HoversTest - Starting hoverOverAllFiguresTest
+2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Navigated to Hovers page
+2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Hovered over figure at index: 0
+2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Caption visible at index 0: true
+2026-05-03 15:30:50 [INFO ] com.divhani.theinternet.HoversTest - Figure 0 hover verified
+2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Hovered over figure at index: 1
+2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Caption visible at index 1: true
+2026-05-03 15:30:50 [INFO ] com.divhani.theinternet.HoversTest - Figure 1 hover verified
+2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Hovered over figure at index: 2
+2026-05-03 15:30:50 [INFO ] com.divhani.pages.HoversPage - Caption visible at index 2: true
+2026-05-03 15:30:50 [INFO ] com.divhani.theinternet.HoversTest - Figure 2 hover verified
+2026-05-03 15:30:50 [INFO ] com.divhani.theinternet.HoversTest - hoverOverAllFiguresTest passed
+2026-05-03 15:30:50 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 15:30:50 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 15:30:50 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 15:30:52 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 15:30:52 [INFO ] com.divhani.theinternet.HoversTest - Starting hoverOverFirstFigureTest
+2026-05-03 15:30:59 [INFO ] com.divhani.pages.HoversPage - Navigated to Hovers page
+2026-05-03 15:30:59 [INFO ] com.divhani.pages.HoversPage - Hovered over figure at index: 0
+2026-05-03 15:30:59 [INFO ] com.divhani.pages.HoversPage - Caption visible at index 0: true
+2026-05-03 15:30:59 [INFO ] com.divhani.theinternet.HoversTest - hoverOverFirstFigureTest passed
+2026-05-03 15:30:59 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 15:31:00 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
