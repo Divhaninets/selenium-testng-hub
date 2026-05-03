@@ -25,7 +25,7 @@ import org.testng.ITestResult;
 public class ExtentReportManager implements ITestListener {
 
     // ExtentReports - the main report object
-    private ExtentReports extent;
+    private static ExtentReports extent;
 
     // ExtentTest - represents one individual test in the report
     private ExtentTest test;
@@ -35,26 +35,18 @@ public class ExtentReportManager implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
-        // Called once when the test suite starts
-        // This is where we set up the report configuration
-
-        // SparkReporter creates the actual HTML file
-        ExtentSparkReporter sparkReporter = new ExtentSparkReporter(REPORT_PATH);
-
-        // Configure the report appearance
-        sparkReporter.config().setTheme(Theme.DARK);
-        sparkReporter.config().setDocumentTitle("Selenium TestNG Hub - Test Report");
-        sparkReporter.config().setReportName("Automation Test Results");
-
-        // Attach the spark reporter to extent
-        extent = new ExtentReports();
-        extent.attachReporter(sparkReporter);
-
-        // Add system information to the report
-        extent.setSystemInfo("Project", "Selenium TestNG Hub");
-        extent.setSystemInfo("Tester", "Divhani");
-        extent.setSystemInfo("Environment", "Test");
-        extent.setSystemInfo("Browser", "Chrome");
+        if (extent == null) {
+            ExtentSparkReporter sparkReporter = new ExtentSparkReporter(REPORT_PATH);
+            sparkReporter.config().setTheme(Theme.DARK);
+            sparkReporter.config().setDocumentTitle("Selenium TestNG Hub - Test Report");
+            sparkReporter.config().setReportName("Automation Test Results");
+            extent = new ExtentReports();
+            extent.attachReporter(sparkReporter);
+            extent.setSystemInfo("Project", "Selenium TestNG Hub");
+            extent.setSystemInfo("Tester", "Divhani");
+            extent.setSystemInfo("Environment", "Test");
+            extent.setSystemInfo("Browser", "Chrome");
+        }
     }
 
     @Override
