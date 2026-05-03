@@ -36,4 +36,11 @@
         </classes>
     </test>
 
+    <!-- Multiple Windows Tests -->
+    <test name="Multiple Windows Tests">
+        <classes>
+            <class name="com.divhani.theinternet.MultipleWindowsTest"/>
+        </classes>
+    </test>
+
 </suite>
