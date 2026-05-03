@@ -15,4 +15,11 @@
         </classes>
     </test>
 
+    <!-- Checkboxes Tests -->
+    <test name="Checkboxes Tests">
+        <classes>
+            <class name="com.divhani.theinternet.CheckboxesTest"/>
+        </classes>
+    </test>
+
 </suite>

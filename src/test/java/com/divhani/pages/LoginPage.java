@@ -1,5 +1,6 @@
 package com.divhani.pages;
 
+import com.divhani.utils.WaitUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -42,6 +43,7 @@ public class LoginPage {
     }
 
     public String getFlashMessage() {
+        WaitUtil.waitForVisibility(driver, successMessage);
         return driver.findElement(successMessage).getText();
     }
 
