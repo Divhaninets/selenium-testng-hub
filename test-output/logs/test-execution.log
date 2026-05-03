@@ -1,33 +1,68 @@
-2026-05-03 16:40:28 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:40:32 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:40:32 [INFO ] com.divhani.theinternet.TyposTest - Starting pageLoadsTest
-2026-05-03 16:40:38 [INFO ] com.divhani.pages.TyposPage - Navigated to Typos page
-2026-05-03 16:40:38 [INFO ] com.divhani.theinternet.TyposTest - pageLoadsTest passed
-2026-05-03 16:40:38 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:40:39 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:40:39 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:40:41 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:40:41 [INFO ] com.divhani.theinternet.TyposTest - Starting secondParagraphContainsExpectedWordsTest
-2026-05-03 16:40:48 [INFO ] com.divhani.pages.TyposPage - Navigated to Typos page
-2026-05-03 16:40:48 [INFO ] com.divhani.pages.TyposPage - Second paragraph: Sometimes you'll see a typo, other times you won,t.
-2026-05-03 16:40:48 [INFO ] com.divhani.theinternet.TyposTest - secondParagraphContainsExpectedWordsTest passed
-2026-05-03 16:40:48 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:40:48 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:40:49 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:40:52 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:40:52 [INFO ] com.divhani.theinternet.FloatingMenuTest - Starting menuStaysVisibleAfterScrollTest
-2026-05-03 16:40:58 [INFO ] com.divhani.pages.FloatingMenuPage - Navigated to Floating Menu page
-2026-05-03 16:40:58 [INFO ] com.divhani.pages.FloatingMenuPage - Scrolled down 500 pixels
-2026-05-03 16:40:58 [INFO ] com.divhani.pages.FloatingMenuPage - Menu displayed: true
-2026-05-03 16:40:59 [INFO ] com.divhani.pages.FloatingMenuPage - Home link displayed: true
-2026-05-03 16:40:59 [INFO ] com.divhani.theinternet.FloatingMenuTest - menuStaysVisibleAfterScrollTest passed
-2026-05-03 16:40:59 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:40:59 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
-2026-05-03 16:40:59 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
-2026-05-03 16:41:01 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
-2026-05-03 16:41:01 [INFO ] com.divhani.theinternet.FloatingMenuTest - Starting menuVisibleOnLoadTest
-2026-05-03 16:41:06 [INFO ] com.divhani.pages.FloatingMenuPage - Navigated to Floating Menu page
-2026-05-03 16:41:08 [INFO ] com.divhani.pages.FloatingMenuPage - Menu displayed: true
-2026-05-03 16:41:08 [INFO ] com.divhani.theinternet.FloatingMenuTest - menuVisibleOnLoadTest passed
-2026-05-03 16:41:08 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
-2026-05-03 16:41:09 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:59:07 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:59:11 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:59:11 [INFO ] com.divhani.theinternet.HorizontalSliderTest - Starting moveSliderRightTest
+2026-05-03 16:59:17 [INFO ] com.divhani.pages.HorizontalSliderPage - Navigated to Horizontal Slider page
+2026-05-03 16:59:17 [INFO ] com.divhani.utils.WaitUtil - Waiting for element to be visible: By.cssSelector: input[type='range']
+2026-05-03 16:59:18 [INFO ] com.divhani.pages.HorizontalSliderPage - Moved slider right 3 times
+2026-05-03 16:59:18 [INFO ] com.divhani.pages.HorizontalSliderPage - Slider value: 1.5
+2026-05-03 16:59:18 [INFO ] com.divhani.theinternet.HorizontalSliderTest - moveSliderRightTest passed
+2026-05-03 16:59:18 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:59:18 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:59:18 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:59:20 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:59:20 [INFO ] com.divhani.theinternet.HorizontalSliderTest - Starting sliderStartsAtZeroTest
+2026-05-03 16:59:27 [INFO ] com.divhani.pages.HorizontalSliderPage - Navigated to Horizontal Slider page
+2026-05-03 16:59:27 [INFO ] com.divhani.pages.HorizontalSliderPage - Slider value: 0
+2026-05-03 16:59:27 [INFO ] com.divhani.theinternet.HorizontalSliderTest - sliderStartsAtZeroTest passed
+2026-05-03 16:59:27 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:59:28 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:59:29 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:59:30 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:59:30 [INFO ] com.divhani.theinternet.GeolocationTest - Starting geolocationPageLoadsTest
+2026-05-03 16:59:37 [INFO ] com.divhani.pages.GeolocationPage - Navigated to Geolocation page
+2026-05-03 16:59:37 [INFO ] com.divhani.theinternet.GeolocationTest - geolocationPageLoadsTest passed
+2026-05-03 16:59:37 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:59:38 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:59:38 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:59:40 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:59:40 [INFO ] com.divhani.theinternet.GeolocationTest - Starting mockGeolocationTest
+2026-05-03 16:59:47 [INFO ] com.divhani.pages.GeolocationPage - Navigated to Geolocation page
+2026-05-03 16:59:47 [INFO ] com.divhani.pages.GeolocationPage - Mock geolocation set: -25.7461, 28.1881
+2026-05-03 16:59:47 [INFO ] com.divhani.pages.GeolocationPage - Clicked Where am I button
+2026-05-03 16:59:49 [INFO ] com.divhani.theinternet.GeolocationTest - mockGeolocationTest passed
+2026-05-03 16:59:49 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 16:59:49 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 16:59:49 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 16:59:51 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 16:59:51 [INFO ] com.divhani.theinternet.InfiniteScrollTest - Starting pageLoadsWithContentTest
+2026-05-03 16:59:58 [INFO ] com.divhani.pages.InfiniteScrollPage - Navigated to Infinite Scroll page
+2026-05-03 16:59:58 [INFO ] com.divhani.pages.InfiniteScrollPage - Scrolled down 300 pixels
+2026-05-03 17:00:00 [INFO ] com.divhani.pages.InfiniteScrollPage - Paragraph count: 2
+2026-05-03 17:00:00 [INFO ] com.divhani.theinternet.InfiniteScrollTest - pageLoadsWithContentTest passed
+2026-05-03 17:00:00 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 17:00:01 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 17:00:01 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 17:00:03 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 17:00:03 [INFO ] com.divhani.theinternet.InfiniteScrollTest - Starting scrollingLoadsMoreContentTest
+2026-05-03 17:00:10 [INFO ] com.divhani.pages.InfiniteScrollPage - Navigated to Infinite Scroll page
+2026-05-03 17:00:12 [INFO ] com.divhani.pages.InfiniteScrollPage - Scrolled to bottom of page
+2026-05-03 17:00:14 [INFO ] com.divhani.pages.InfiniteScrollPage - Scrolled to bottom of page
+2026-05-03 17:00:15 [INFO ] com.divhani.pages.InfiniteScrollPage - Scrolled to bottom of page
+2026-05-03 17:00:17 [INFO ] com.divhani.theinternet.InfiniteScrollTest - scrollingLoadsMoreContentTest passed
+2026-05-03 17:00:17 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 17:00:17 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 17:00:17 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 17:00:19 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 17:00:19 [INFO ] com.divhani.theinternet.ShadowDomTest - Starting accessShadowDomContentTest
+2026-05-03 17:00:26 [INFO ] com.divhani.pages.ShadowDomPage - Navigated to Shadow DOM page
+2026-05-03 17:00:26 [INFO ] com.divhani.pages.ShadowDomPage - Shadow DOM text: Let's have some different text!
+2026-05-03 17:00:26 [INFO ] com.divhani.theinternet.ShadowDomTest - accessShadowDomContentTest passed
+2026-05-03 17:00:26 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 17:00:26 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
+2026-05-03 17:00:26 [INFO ] com.divhani.base.BaseTest - Starting test - opening Chrome browser
+2026-05-03 17:00:28 [INFO ] com.divhani.base.BaseTest - Browser opened and maximised successfully
+2026-05-03 17:00:28 [INFO ] com.divhani.theinternet.ShadowDomTest - Starting shadowDomPageLoadsTest
+2026-05-03 17:00:35 [INFO ] com.divhani.pages.ShadowDomPage - Navigated to Shadow DOM page
+2026-05-03 17:00:35 [INFO ] com.divhani.theinternet.ShadowDomTest - shadowDomPageLoadsTest passed
+2026-05-03 17:00:35 [INFO ] com.divhani.base.BaseTest - Test finished - closing browser
+2026-05-03 17:00:36 [INFO ] com.divhani.base.BaseTest - Browser closed successfully
