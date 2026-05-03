@@ -29,4 +29,11 @@
         </classes>
     </test>
 
+    <!-- JavaScript Alerts Tests -->
+    <test name="JavaScript Alerts Tests">
+        <classes>
+            <class name="com.divhani.theinternet.JavaScriptAlertsTest"/>
+        </classes>
+    </test>
+
 </suite>
